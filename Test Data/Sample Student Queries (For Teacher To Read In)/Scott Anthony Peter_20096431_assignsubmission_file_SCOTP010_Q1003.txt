@@ -1,0 +1,16 @@
+-- Username: SCOTP010
+-- Q1003 List the different types of sales reasons and
+the number of sales for each of those reasons.
+-- Schemas: Sales
+
+-- Example output:
+-- SalesReason		salesCount
+-- On Promotion		2500
+
+ASSUMPTION: 
+1 SalesOrdeNumber = 1 sale.
+A sale may have more than 1 sales reason.
+This query lists the total sales for every reason.
+
+
+SELECT SR.Name AS SalesReason, COUNT(SOH.SalesOrderNumber) AS salesCount FROM Sales.SalesOrderHeader AS SOH JOIN Sales.SalesOrderHeaderSalesReason AS SOHSR ON SOH.SalesOrderID = SOHSR.SalesOrderID JOIN Sales.SalesReason AS SR ON SOHSR.SalesReasonID = SR.SalesReasonID GROUP BY Sr.Name;

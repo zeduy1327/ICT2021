@@ -1,0 +1,17 @@
+-- Username:
+-- Q1003 List the different types of sales reasons and the number of sales for each of those reasons.
+-- Schemas: Sales
+
+-- Example output:
+-- SalesReason		salesCount
+-- On Promotion		2500
+SELECT Name, salesCount FROM (SELECT SalesReasonID, COUNT(SalesReasonID) AS salesCount FROM Sales.SalesOrderHeaderSalesReason GROUP BY SalesReasonID) AS calc JOIN Sales.SalesReason names ON calc.SalesReasonID = names.SalesReasonID
+
+/*
+SELECT names.Name AS SalesReason, COUNT(*) AS salesCount
+	FROM Sales.SalesReason names
+	JOIN Sales.SalesOrderHeaderSalesReason r ON names.SalesReasonID = r.SalesReasonID
+	GROUP BY names.SalesReasonID, names.Name
+*/
+
+-- OK CONFIRM: Name not ReasonType

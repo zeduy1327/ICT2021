@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>0</x>
+      <y>30</y>
+      <w>940</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>50</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;-- back
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>50</y>
+      <w>650</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Test/Student Comparison
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>200</y>
+      <w>840</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>240</y>
+      <w>370</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Generate student results
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>220</y>
+      <w>810</w>
+      <h>490</h>
+    </coordinates>
+    <panel_attributes>
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>290</y>
+      <w>770</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>310</y>
+      <w>700</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Student Record 1
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>350</y>
+      <w>700</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Student Record 2
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>390</y>
+      <w>700</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Student Record 3
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>430</y>
+      <w>700</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Student Record 4
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>470</y>
+      <w>700</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Student Record 5
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>510</y>
+      <w>700</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Student Record 6
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>310</y>
+      <w>40</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>310</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>scrollable
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>560</y>
+      <w>320</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Graph
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>560</y>
+      <w>320</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Export
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>940</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>40</y>
+      <w>390</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Student Query
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>310</x>
+      <y>170</y>
+      <w>340</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>(Enter the location of the student files)
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>230</y>
+      <w>540</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Read Student Files
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>70</x>
+      <y>220</y>
+      <w>820</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>70</x>
+      <y>40</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;-- back
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

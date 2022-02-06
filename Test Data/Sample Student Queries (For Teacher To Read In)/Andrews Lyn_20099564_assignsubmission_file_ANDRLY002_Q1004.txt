@@ -1,0 +1,14 @@
+-- Username:	ANDRLY002 Lyn Andrews
+
+-- Q1004 For each of the different departments, show the number of current female, male and total employees currently employed.
+-- Schemas: HumanResources
+
+-- Example output:
+-- departmentName	female	male	totalEmployeeCount
+-- Production	     40     120	    	160
+
+SELECT Name, COUNT(F.BusinessEntityID) AS female, COUNT(M.BusinessEntityID) AS male, COUNT(*) AS totalEmployeeCount FROM HumanResources.EmployeeDepartmentHistory AS EDH JOIN HumanResources.Department AS D ON D.DepartmentID = EDH.DepartmentID LEFT JOIN (SELECT BusinessEntityID FROM HumanResources.Employee WHERE Gender = 'F') F ON F.BusinessEntityID = EDH.BusinessEntityID LEFT JOIN (SELECT BusinessEntityID FROM HumanResources.Employee WHERE Gender ='M') M ON M.BusinessEntityID = EDH.BusinessEntityID WHERE EndDate IS NULL GROUP BY Name
+
+
+
+

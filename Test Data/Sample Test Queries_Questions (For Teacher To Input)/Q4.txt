@@ -1,0 +1,3 @@
+-- Q1004 For each of the different departments, show the number of current female, male and total employees currently employed.
+
+SELECT Name AS departmentName, (SELECT COUNT(gender) FROM HumanResources.Employee WHERE Gender = 'F') AS female, (SELECT COUNT(gender) FROM HumanResources.Employee WHERE Gender = 'M') AS male, (SELECT COUNT(gender) FROM HumanResources.Employee) AS totalEmployeeCount FROM HumanResources.Department N JOIN HumanResources.EmployeeDepartmentHistory EDH ON N.DepartmentID = EDH.DepartmentID JOIN HumanResources.Employee E ON EDH.BusinessEntityID = E.BusinessEntityID GROUP BY Name;

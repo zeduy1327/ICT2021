@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>0</x>
+      <y>30</y>
+      <w>940</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>50</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;-- back
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>50</y>
+      <w>650</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Deductions
+Test Query: {queryId}
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>200</y>
+      <w>840</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>220</y>
+      <w>810</w>
+      <h>490</h>
+    </coordinates>
+    <panel_attributes>
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>250</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query returned incorrect number of rows: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>250</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1 point
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>300</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query returned incorrect number of columns: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>350</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query returned incorrect values: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>400</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query returned incorrect order of columns: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>450</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query returned incorrect order of rows: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>500</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query used incorrect join: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>550</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query incorrectly used TOP: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>300</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1 point
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>350</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1 point
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>400</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>3 points
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>450</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>2 points
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>500</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>0 point
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>550</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1 point
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>600</y>
+      <w>610</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Query executed inneficiently: 
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>600</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1 point
+valign=center
+fontsize=20
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

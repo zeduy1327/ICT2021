@@ -1,0 +1,4 @@
+-- Q1001 Show the total number of production transactions in the
+transaction history archive table, the average quantity and the average cost.
+
+SELECT COUNT(TransactionID) AS transCount, AVG(Quantity) AS avgQuantity, AVG(ActualCost) AS avgCost FROM Production.TransactionHistoryArchive;

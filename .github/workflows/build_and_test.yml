@@ -1,0 +1,49 @@
+name: Build and Test
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  unit_test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8 
+    - name: unit test Front End
+      run: |
+        python3 -m pip install --upgrade pip
+        cd FrontEnd
+        pip install -r requirements.txt
+        chmod +x ./runUnitTests.sh
+        ./runUnitTests.sh
+  integration_test:
+    runs-on: ubuntu-latest
+    needs: [unit_test]
+    services:
+      Assignment-database:
+        image: mcr.microsoft.com/mssql/server
+        options: >-
+              -e 'ACCEPT_EULA=Y' 
+              -e 'SA_PASSWORD=MyStrongPassword'
+        ports:
+          - 1433:1433
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.8 
+    - name: Migrate Database Service
+      run: |
+        echo "migrate here"
+    - name: integration test Front End
+      run: |
+        python3 -m pip install --upgrade pip
+        cd FrontEnd
+        pip install -r requirements.txt
+        chmod +x ./runIntegrationTests.sh
+#        ./runIntegrationTests.sh

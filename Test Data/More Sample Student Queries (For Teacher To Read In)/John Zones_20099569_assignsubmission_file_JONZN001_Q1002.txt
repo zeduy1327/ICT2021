@@ -1,0 +1,9 @@
+-- Q1002 Show the average number of sick leave hours, vacation hours 
+-- and number of current staff 
+-- Schemas: HumanResources
+
+-- Example output: 
+-- Name	                  sickLeave	    vacation	noStaff
+-- Shipping and Receiving  	  67	       95	       6
+-- Write your query below:
+SELECT	Name, SUM(SickLeaveHours) AS sickLeave, SUM(VacationHours) AS vacation, COUNT(*) AS noStaff FROM HumanResources.EmployeeDepartmentHistory AS EDH JOIN HumanResources.Department AS D ON D.DepartmentID = EDH.DepartmentID JOIN HumanResources.Employee AS E ON E.BusinessEntityID = EDH.BusinessEntityID WHERE EndDate IS NULL GROUP BY Name ORDER BY noStaff

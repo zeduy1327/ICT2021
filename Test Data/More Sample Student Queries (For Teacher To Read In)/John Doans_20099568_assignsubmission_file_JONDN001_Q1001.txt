@@ -1,0 +1,4 @@
+-- Q1001 show the total number of production transactions in the transaction
+-- history archive table, the average quantity and the average cost
+-- Schemas: Production
+SELECT COUNT(*) AS transCount, AVG(Quantity) AS avgQuantity FROM Production.TransactionHistoryArchive

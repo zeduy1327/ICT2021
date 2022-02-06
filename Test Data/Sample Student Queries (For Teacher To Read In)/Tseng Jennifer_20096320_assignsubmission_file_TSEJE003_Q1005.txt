@@ -1,0 +1,10 @@
+-- Username: tseje003
+-- Q1005 List the first two letters of the different product numbers and the count of different products with those production numbers in increasing order
+-- Schemas: Production
+
+-- Example output:
+-- codeLetters	CodeCount
+--		FW			16
+--		LJ			20
+
+SELECT LEFT(ProductNumber, 2) AS codeLetters, COUNT(LEFT(ProductNumber, 2)) AS CodeCount FROM Production.Product GROUP BY LEFT(ProductNumber, 2) ORDER BY CodeCount

@@ -1,0 +1,92 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b10430d0-60bb-4f7b-9107-bce89622b38a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>support.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>FrontEnd</Name>
+    <RootNamespace>FrontEnd</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="docker-compose.yml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="runUnitTests.sh" />
+    <Content Include="runIntegrationTests.sh" />
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IntegrationTests\" />
+    <Folder Include="IntegrationTests\TestFiles\" />
+    <Folder Include="UnitTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API.py" />
+    <Compile Include="databaseconnectionclass.py" />
+    <Compile Include="deductionclass.py" />
+    <Compile Include="deductiontest.py" />
+    <Compile Include="difficuiltyclass.py" />
+    <Compile Include="Enrollmet.py" />
+    <Compile Include="Graph.py" />
+    <Compile Include="input.py" />
+    <Compile Include="IntegrationTests\DatabaseConnectionTests.py" />
+    <Compile Include="IntegrationTests\DBBuilder.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IntegrationTests\QueryTests.py" />
+    <Compile Include="IntegrationTests\QuestionTests.py" />
+    <Compile Include="IntegrationTests\EnrollmentTests.py" />
+    <Compile Include="IntegrationTests\DifficultyTests.py" />
+    <Compile Include="IntegrationTests\SemesterTests.py" />
+    <Compile Include="IntegrationTests\UserTests.py" />
+    <Compile Include="IntegrationTests\MarksTests.py" />
+    <Compile Include="mainGUI.py" />
+    <Compile Include="mainmethod.py" />
+    <Compile Include="Marks.py" />
+    <Compile Include="queryclass.py" />
+    <Compile Include="questionclass.py" />
+    <Compile Include="Semester.py" />
+    <Compile Include="studentqueryreadintest1.py" />
+    <Compile Include="support.py" />
+    <Compile Include="testqueryinputtest1.py" />
+    <Compile Include="testqueryinputtest2.py" />
+    <Compile Include="testQueryManagement.py" />
+    <Compile Include="UnitTests\DatabaseConnectionTests.py" />
+    <Compile Include="UnitTests\QuestionTests.py" />
+    <Compile Include="UnitTests\QueryTests.py" />
+    <Compile Include="UnitTests\DeductionTests.py" />
+    <Compile Include="UnitTests\SemesterTests.py" />
+    <Compile Include="UnitTests\EnrollmetTests.py" />
+    <Compile Include="UnitTests\MarksTests.py" />
+    <Compile Include="UnitTests\DifficuiltyTests.py" />
+    <Compile Include="UnitTests\UserTests.py" />
+    <Compile Include="User.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.9" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

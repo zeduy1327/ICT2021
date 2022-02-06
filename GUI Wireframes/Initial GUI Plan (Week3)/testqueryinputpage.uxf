@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>940</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>20</y>
+      <w>450</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Input Test Query
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>340</x>
+      <y>160</y>
+      <w>290</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Question: Enter test query question here
+
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>340</x>
+      <y>200</y>
+      <w>270</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Query: Enter test query here
+
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>940</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>20</y>
+      <w>450</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Input Test Query
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>940</w>
+      <h>760</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>20</y>
+      <w>450</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Input Test Query
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>80</x>
+      <y>350</y>
+      <w>820</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>360</y>
+      <w>540</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Input 
+valign=center
+fontsize=50
+lw=2.5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>80</x>
+      <y>20</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;-- back
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>340</x>
+      <y>240</y>
+      <w>300</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Difficuilty: Enter test query difficuilty here
+
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

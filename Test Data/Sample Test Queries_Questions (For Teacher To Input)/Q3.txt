@@ -1,0 +1,3 @@
+-- Q1003 List the different types of sales reasons and the number of sales for each of those reasons.
+
+SELECT Name AS SalesReason, COUNT(SalesOrderID) AS salesCount FROM Sales.SalesReason AS SR JOIN Sales.SalesOrderHeaderSalesReason AS SOHSR ON SR.SalesReasonID = SOHSR.SalesReasonID GROUP BY Name;
